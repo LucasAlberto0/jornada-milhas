@@ -1,0 +1,31 @@
+.app-header {
+
+  .header-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+  }
+  .header-flex-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+
+  }
+  .mat-toolbar {
+    background-color: black;
+    color: white;
+  }
+
+  .mat-mdc-outlined-button:not(:disabled) {
+    border-color: white;
+  }
+
+
+  button {
+    margin: 0 16px;
+  }
+}
